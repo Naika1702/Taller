@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <title>
+                    Multientregas CR
+                </title>
+                <link href="css/bootstrap.min.css" rel="stylesheet">
+                    <link href="css/proyectoweb.css" rel="stylesheet">
+                    </link>
+                </link>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container text-uppercase">
+                <a class="navbar-brand" href="#">
+                    Multientregas CR
+                </a>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="PanelPrincipal.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Empleados.html">
+                                Empleados
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Envios.html">
+                                Envios
+                            </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="MantenimientoPrecios.html">
+                                Precios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Salir
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-5 col-lg-5">
+            <h3 class="text-uppercase text-center p-5">
+                Formulario de Envios
+            </h3>
+            <p class="lead text-center p-md-3">
+                Ingrese los datos del Emisor.
+            </p>
+            <form action="Envios" class="row g-3" method="post">
+                <div class="col-md-4">
+                    <label class="form-label" for="validationServer01">
+                        Identificacion Emisor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Identificacion Emisor">
+                    </input>
+                </div>
+                <div class="col-md-8">
+                    <label class="form-label" for="validationServer01">
+                        Nombre Emisor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Nombre Emisor">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" for="validationServer02">
+                        Telefono Emisor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" pattern="[0-9]+" required="" type="text" value="" name="Telefono Emisor">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-8">
+                    <label class="form-label" for="validationServer02">
+                        Correo Emisor
+                    </label>
+                    <div class="input-group has-validation">
+                        <input aria-describedby="basic-addon2" aria-label="Escribe tu correo" class="form-control is-invalid" for="validationServer02" placeholder="Escribe tu correo" type="email" name="Correo Emisor">
+                            <span class="input-group-text" id="basic-addon2">
+                                @example.com
+                            </span>
+                        </input>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <label class="form-label" for="validationServer01">
+                        Direccion Emisor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Direccion Emisor">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <hr>
+                    <div>
+                        <p class="lead text-center p-md-3">
+                            Ingrese los datos del Receptor.
+                        </p>
+                    </div>
+                </hr>
+                <div class="col-md-4">
+                    <label class="form-label" for="validationServer01">
+                        Identificacion Receptor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Identificacion Receptor">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-8">
+                    <label class="form-label" for="validationServer01">
+                        Nombre Receptor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Nombre Receptor">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" for="validationServer02">
+                        Telefono Receptor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" pattern="[0-9]+" required="" type="text" value="" name="Telefono Receptor">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-8">
+                    <label class="form-label" for="validationServer02">
+                        Correo Receptor
+                    </label>
+                    <div class="input-group has-validation">
+                        <input aria-describedby="basic-addon2" aria-label="Escribe tu correo" class="form-control is-invalid" for="validationServer02" placeholder="Escribe tu correo" type="email" name="Correo Receptor">
+                            <span class="input-group-text" id="basic-addon2">
+                                @example.com
+                            </span>
+                        </input>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <label class="form-label" for="validationServer01">
+                        Direccion Receptor
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Direccion Receptor">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <hr>
+                    <div>
+                        <p class="lead text-center p-md-3">
+                            Información del paquete.
+                        </p>
+                    </div>
+                </hr>
+                <div class="col-md-4">
+                    <label class="form-label" for="validationServer01">
+                        Id Paquete
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" pattern="[0-9]+" required="" type="text" value="" name="IdP">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-5">
+                    <label class="form-label" for="validationServer01">
+                        Nombre de Paquete
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Nombre Paquete">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label" for="validationServer01">
+                        Peso
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Peso">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label" for="validationServer01">
+                        Distancia
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01"  required="" type="text" value="" name="Distancia">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label" for="validationServer01">
+                        Cantidad
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" pattern="[0-9]+" required="" type="text" value="" name="Cantidad">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <div class="col-md-8">
+                    <label class="form-label" for="validationServer01">
+                        Descripcion
+                    </label>
+                    <input class="form-control is-valid" id="validationServer01" required="" type="text" value="" name="Des">
+                        <div class="valid-feedback">
+                        </div>
+                    </input>
+                </div>
+                <hr>
+                 <div>
+                        <p class="lead text-left p-0">
+                            Estado
+                        </p>
+                    </div>
+                </hr>
+                <div class="col-md-3">
+                    <div class="form-check">
+                        <input class="form-check-input" id="flexRadioDefault1"  name="EstadoEnvio" type="radio" Value="Entregado">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Entregado
+                            </label>
+                        </input>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-check">
+                        <input checked="" class="form-check-input" id="flexRadioDefault2"  name="EstadoEnvio" type="radio" Value="Pendiente">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Pendiente
+                            </label>
+                        </input>
+                    </div>
+                    <div>
+                        <p class="lead text-left p-0">
+                            Tipo de envio
+                        </p>
+                    </div>
+                </hr>
+                <div class="col-md-3">
+                    <div class="form-check">
+                        <input class="form-check-input" id="flexRadioDefault1"  name="TipoEnvio" type="radio" Value="Terrestre">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Terrestre
+                            </label>
+                        </input>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-check">
+                        <input checked="" class="form-check-input" id="flexRadioDefault2"  name="TipoEnvio" type="radio" Value="Aereo">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Aereo
+                            </label>
+                        </input>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-12 p-4">
+                    <div class="form-check">
+                        <input class="form-check-input" id="invalidCheck2" required="" type="checkbox" value="">
+                            <label class="form-check-label" for="invalidCheck2">
+                                <div class="text-danger">
+                                    <p>
+                                        Antes de realizar el envio asegurese de que sus datos sea correctos....!!
+                                    Acepto Terminos y Condiciones.
+                                    </p>
+                                </div>
+                            </label>
+                        </input>
+                    </div>
+                </div>
+                <div class="col-md-2 p-2">
+                    <button class="btn btn-success alert-success" type="submit" value="Ingresar" name="Boton">
+                        Guardar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

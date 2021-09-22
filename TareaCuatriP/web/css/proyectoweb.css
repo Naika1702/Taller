@@ -1,0 +1,169 @@
+
+@import url ('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 300; 400; 700 & display = swap');
+@import url ('https://fonts.googleapis.com/css2? family = Lato: wght @ 300; 400; 700; 900 & display = swap');
+:root {
+    --color-principal: #151515;
+    --color-hover: #FACC2E;
+    --color-seccion: #242d37;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+p {
+    font-size: 16px;
+}
+.btn-warning-danger {
+    border-color: var(--color-principal)!important;
+}
+.btn-warning-danger:hover {
+    color: #fff;
+    background: var(--color-hover)!important;
+    border-color: var(--color-principal)!important;
+}
+/*Barra de Navegacion*/
+
+.bg-dark {
+    background-color: var(--color-principal) !important;
+}
+.navbar-dark .navbar-brand {
+    font-weight: 700px;
+    letter-spacing: 5px;
+    color: #FACC2E;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    color: #FACC2E;
+}
+/*Estilos de Portada */
+
+.imagen-portada {
+    background-image: url(../img/encomiendas03.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+.imagen-portada:before {
+    background-color: rgba(0, 0, 0, 0.7)!important;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.texto-portada {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.texto-portada h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0;
+}
+.texto-portada p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.rounded-pill {
+    padding: 5px 70px;
+}
+.btn-outline-danger {
+    border-color: var(--color-principal)!important;
+}
+.btn-outline-danger:hover {
+    color: #fff;
+    background: var(--color-hover)!important;
+    border-color: var(--color-principal)!important;
+}
+/*Estilos de Seccion*/
+
+.seccion {
+    font-family: 'Lato', sans-serif;
+    padding: 100px 0px;
+}
+.bg-seccion {
+    background-color: var(--color-seccion)!important;
+}
+/*Nosotros*/
+
+.nosotros h3 {
+    font-size: 25px;
+    font-weight: 400px;
+    color: var(--color-principal)!important;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.parrafo {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.icono {
+    font-size: 130px;
+    color: var(--color-principal)!important;
+}
+.icono-numero {
+    font-size:
+}
+
+/*Carousel */
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-side: cover;
+    background-side: cover;
+}
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 100px;
+}
+.carousel-caption h5 {
+    font-size: 100px;
+    font-weight: 700px;
+}
+.carousel-caption p {
+    font-size: 18px;
+    top: 2rem;
+}
+
+.slider-btn{
+    margin-top: 30px;
+
+}
+
+.slider-btn .btn{
+    background-color: #242d37;
+    columns: white;
+    border-radius: 0;
+    padding: 1.5rem 2rem;
+    font-size: 1rem;
+    margin-right: 15px; 
+}
+
+
